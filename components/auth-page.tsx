@@ -18,7 +18,7 @@ const AuthPage: React.FC<{ onGoBack: () => void }> = ({ onGoBack }) => {
   const [showPassword, setShowPassword] = useState(false);
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
   const [showErrorPopup, setShowErrorPopup] = useState(false);
-  const [popupMessage, setPopupMessage] = useState('');
+  const [, setPopupMessage] = useState('');
   const [passwordMatchError, setPasswordMatchError] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
